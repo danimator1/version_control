@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-kinesis": "^3.668.0",
+    "@aws-sdk/client-sqs": "^3.668.0",
+    "aws-sdk": "^2.1691.0"
+  }
+}
