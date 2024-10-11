@@ -24,7 +24,9 @@ app.get('/dashboard', authenticateToken, (req, res) => {
 
 
 function authenticateToken(req, res, next) {
-    const token = req.header('Authorization')
+    const authHeader = req.header('Authorization')
+    const token = authHeader && authHeader.split(' ')[1]
+
     if (!token) return res.sendStatus(401)
 
     jwt.verify(token, 'secret_key', (err, user) => {
@@ -33,5 +35,6 @@ function authenticateToken(req, res, next) {
         next()
     })
 }
+
 
 app.listen(5000, () => console.log('Server running on port 5000'))
