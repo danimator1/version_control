@@ -15,7 +15,7 @@ You will build a full-stack web application that provides a dashboard for users 
 - Data Stores: MySQL and MongoDB
 - Cloud Services: AWS (SQS for data streaming, Kinesis for real-time processing, CloudWatch for monitoring)
 - CI/CD Pipelines: Jenkins, GitHub Actions, AWS CodeDeploy
-- Frameworks: React (Frontend), Node.js (Backend), SpringBoot (optional for a Java-based backend)
+- Frameworks: React (Frontend), Node.js (Backend), SpringBoot
 - APIs: REST API for communication between frontend and backend
 
 
