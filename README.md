@@ -2,7 +2,7 @@
 
 **Project Overview:**
 
-A full-stack web application that provides a dashboard for users to interact with, which supports both real-time data streaming and a continuous integration/continuous deployment (CI/CD) pipeline. This app will also include secure APIs, logging, and monitoring using AWS services. With use modern DevOps practices like Jenkins for automation, GitHub for version control, and implement secure coding practices.
+A full-stack web application that provides a dashboard for users to interact with, which supports both real-time data streaming and a continuous integration/continuous deployment (CI/CD) pipeline. This app will also include secure APIs, logging, and monitoring using AWS services. With use modern DevOps practices like Jenkins for automation, GitHub for version control implementing secure coding practices.
 
 
 
